@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <title>Search People</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="div-left col s12 m12 l7">
+        <div class="container center">
+          <img class="logo-hide" src="./img/igti-logo.png" alt="Logo do IGTI" />
+          <h1 class="center title margin-bottom">Pesquisa de Usuários</h1>
+
+          <div class="input-field">
+            <input id="search-people" type="text" />
+            <label for="search-people">Buscar usuário</label>
+          </div>
+          <div>
+            <a
+              id="btn-clear"
+              class="waves-effect waves-light btn disabled right"
+            >
+              Limpar
+            </a>
+          </div>
+          <div id="users-found"></div>
+
+          <div id="users-list" class="row scroll">
+            <div id="preloader" class="loader-center">
+              <div class="preloader-wrapper small active">
+                <div class="spinner-layer spinner-green-only">
+                  <div class="circle-clipper left">
+                    <div class="circle"></div>
+                  </div>
+                  <div class="gap-patch">
+                    <div class="circle"></div>
+                  </div>
+                  <div class="circle-clipper right">
+                    <div class="circle"></div>
+                  </div>
+                </div>
+              </div>
+              <span class="preloader-text">Carregando...</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="height-right col s0 m0 l5">
+        <div class="div-right">
+          <img id="logo" src="./img/igti-logo-white.png" alt="Logo do IGTI" />
+          <div id="title-statistics"></div>
+          <div id="statistics"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>
