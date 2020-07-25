@@ -14,7 +14,7 @@ O Instituto de Gestão e Tecnologia da Informação, fundado em 2006, é uma ins
 ## Desenvolvimento
 
 Para o desenvolvimento foi necessário:
-* Declarar elementos HTML como títulos, input, div, span, ul, li, etc...
+* Declarar elementos HTML como títulos, input, div, span, etc...
 * Estilizar o app com CSS
 * Mapear elementos do DOM para serem manipulados com JavaScript
 * Formatar valores com JavaScript
