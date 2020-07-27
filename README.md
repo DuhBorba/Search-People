@@ -19,7 +19,7 @@ Para o desenvolvimento foi necessário:
 * Mapear elementos do DOM para serem manipulados com JavaScript
 * Formatar valores com JavaScript
 * Realizar diversos cálculos com array methods como map, filter e forEach
-* Realizar requisições HTTP com o comando fetch
+* Realizar requisições HTTP com o comando fetch e utilização do async/await
 
 ## Construído com
 
